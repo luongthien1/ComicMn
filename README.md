@@ -6,7 +6,7 @@ This project supports managing comic writing. It includes AI technology to corre
 ### 2. Check and recommend better writing
 ![image](https://github.com/user-attachments/assets/709cdb9f-04fb-4576-968c-5f9b3a87ec75)
 
-#### Todo
+# Todo
 - [x] Manage comics and notes.
 - [x] Check common writing issues.
 - [ ] Check logic in comics. (Use knowledge graph with LLM)
