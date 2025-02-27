@@ -2,8 +2,10 @@
 This project supports managing comic writing. It includes AI technology to correct issues such as spelling errors, unclear sentences, and more. Maybe it will have some more features in the future. :D
 
 ### Requirement
-- For client: Reactjs: 19.0.0
-- For server: .NET: 8.0.0
+- For client:
+  - Reactjs - 19.0.0
+- For server:
+  - .NET - 8.0.0
 
 # Feature
 ### 1. Manage comics and notes
