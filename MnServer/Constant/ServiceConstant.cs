@@ -1,4 +1,6 @@
-﻿namespace MnServer.Constant
+﻿using GenerativeAI.Types;
+
+namespace MnServer.Constant
 {
     public static class ServiceConstant
     {
@@ -6,8 +8,22 @@
         {
             public static class Prompt
             {
+                public static string addLineInfo(string content)
+                {
+                    string updatedContent = "";
+                    string[] paras = content.Split("\n");
+                    int i = 0;
+                    foreach (string para in content.Split("\n"))
+                    {
+                        if (para != "")
+                            i++;
+                            updatedContent += $"Dòng {i}: {para}\n";
+                    }
+                    return updatedContent;
+                }
                 public static string CheckAllContent(string content)
                 {
+                    content = addLineInfo(content);
                     return @"Giới thiệu: Bạn là một công cụ kiểm tra và sửa lỗi chính tả và ngữ pháp tiếng việt. Hãy kiểm tra nội dung dưới đây và thực hiện theo yêu cầu.
                     Yêu cầu: Hãy kiểm tra lỗi chính tả và ngữ pháp, xuất kết quả theo định dạng sau.
                     Định dạng: mảng các đối tượng, mỗi đối tượng chứa các trường sau:

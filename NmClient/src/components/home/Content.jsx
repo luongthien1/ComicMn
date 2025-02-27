@@ -65,7 +65,7 @@ export default class Content extends React.Component {
                     text && !this.state.deletedList.includes(i) ? (
                       <TextLine
                         {...{
-                          recommends: this.state.checkData?.filter((item) => item.line_number == i)
+                          recommends: this.state.checkData?.filter((item) => item.line_number == i+1)
                         }}
                         checkChange={this.checkChange}
                         text={text}
