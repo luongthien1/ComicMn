@@ -1,9 +1,9 @@
-#### Description
+# Description
 This project supports managing comic writing. It includes AI technology to correct issues such as spelling errors, unclear sentences, and more.
-#### Feature
-# 1. Manage comics and notes
+# Feature
+### 1. Manage comics and notes
 ![image](https://github.com/user-attachments/assets/0d69c54d-0775-4fc0-8688-6a66983db25a)
-# 2. Check and recommend better writing
+### 2. Check and recommend better writing
 ![image](https://github.com/user-attachments/assets/709cdb9f-04fb-4576-968c-5f9b3a87ec75)
 
 #### Todo
